@@ -75,6 +75,7 @@ CurrentVelocity.Y = FMath::Clamp(Value, -1.f, 1.f) * MaxSpeed;
 FVector NewLocation = GetActorLocation() + (CurrentVelocity * DeltaTime);
 SetActorLocation(NewLocation);
 ```
+&nbsp;
 
 > FORCEINLINE
 > 
@@ -129,6 +130,7 @@ SpringArm->CameraLagSpeed = 3.0f;
 Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 Camera->SetupAttachment(SpringArm,USpringArmComponent::SocketName);
 ```
+
 &nbsp;
 
 > Create Pawn Camera Rotation

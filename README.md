@@ -44,8 +44,8 @@ private:
   void MoveRight(float Value);
   FVector CurrentVelocity;
 ```
-**.cpp**
-**Constructor()**
+**.CPP**
+**Constructor**
 ```
 CurrentVelocity = FVector(0.0f,0.0f,0.0f);
 MaxSpeed = 100.0f;
